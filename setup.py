@@ -11,8 +11,7 @@ setup(
 
     packages=find_packages(),
     package_data = {'' : ['LICENSE', 'README.md']},
-    install_requires = ['requests>=2.1.0',
-                        'streql>=3.0.2'],
+    install_requires = ['requests>=2.1.0',],
     author = "Bigcommerce Engineering",
     author_email = "vip@bigcommerce.com",
     description = "Connect Python applications with the Bigcommerce API",
